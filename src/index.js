@@ -1,9 +1,8 @@
-'use strict';
 
-import "@babel/polyfill";//решает многие проблемы совместимости
-import 'nodelist-foreach-polyfill';//подключ. полифил foreach для IE11
+import '@babel/polyfill';// решает многие проблемы совместимости
+import 'nodelist-foreach-polyfill';// подключ. полифил foreach для IE11
 import elementClosest from 'element-closest';
-elementClosest(window);//вызываем его
+// вызываем его
 import 'formdata-polyfill';
 import 'es6-promise';
 import 'fetch-polyfill';
@@ -17,19 +16,21 @@ import team from './modules/team';
 import calc from './modules/calc';
 import sendForm from './modules/sendForm';
 
-//Timer
+elementClosest(window);
+
+// Timer
 countTimer('1 january 2020');
-//Menu
+// Menu
 toggleMenu();
-//Popup
+// Popup
 togglePopUp();
-//Tabs
+// Tabs
 tabs();
-//Slider
+// Slider
 slider();
-//Our team
+// Our team
 team();
-//Calculator
+// Calculator
 calc();
-//send-ajax-form
+// send-ajax-form
 sendForm();

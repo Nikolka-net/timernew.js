@@ -3,7 +3,7 @@ const path = require('path'); // подключаем путь
 module.exports = {
 	entry: {
 		// libs: ['./js/script.js', './js/script2.js'], //точка входа, 2 файла вместе
-		main: './js/main.js',
+		main: './src/index.js',
 	},
 	output: { // точка выхода
 		path: path.resolve(__dirname, './dist'), // папка с именем проекта и папка dist
