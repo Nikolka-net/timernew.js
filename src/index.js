@@ -19,7 +19,7 @@ import sendForm from './modules/sendForm';
 elementClosest(window);
 
 // Timer
-countTimer('1 january 2020');
+countTimer('1 january 2021');
 // Menu
 toggleMenu();
 // Popup
