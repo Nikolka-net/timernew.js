@@ -1,5 +1,5 @@
 {
-  "name": "test.js",
+  "name": "timernew.js",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -42,7 +42,7 @@
     "webpack-dev-server": "^3.10.2",
     "webpack-stream": "^5.2.1"
   },
-   "dependencies": {
+  "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "element-closest": "^3.0.2",
     "es6-promise": "^4.2.8",
