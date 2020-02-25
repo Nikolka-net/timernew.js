@@ -422,7 +422,35 @@
         </div>
     </div>
 
-    <script src="./dist/js/main.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+    <script>
+        const options = {
+            main: '.companies-wrapper',
+            wrap: '.companies-hor',
+            /* 	prev: '#test-left',
+            	next: '#test-right', */
+            slidesToShow: 4,
+            infinity: true,
+
+            responsive: [{
+                    breakpoint: 1024,
+                    slideToShow: 3
+                },
+                {
+                    breakpoint: 768,
+                    slideToShow: 2
+                },
+                {
+                    breakpoint: 576,
+                    slideToShow: 1
+                }
+
+            ]
+        }
+        const carousel = new SliderCarousel(options);
+        carousel.init();
+    </script>
 </body>
 
 </html>
