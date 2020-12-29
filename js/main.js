@@ -120,7 +120,7 @@ const countTimer = deadline => {
 	updateClock();
 };
 
-countTimer('1 january 2021');
+countTimer('1 january 2023');
 
 /* sendForm */
 
