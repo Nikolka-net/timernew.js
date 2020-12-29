@@ -1,6 +1,6 @@
 # timernew.js
 ### This is the training project for js
-### Учебный проект "3D Glo" из курса по JavaScript от
+### Второй учебный проект "3D Glo" из курса по JavaScript от
 ### [Glo Academy](https://vk.com/glo_academy). Проект включает в себя:
 - #### счётчик
 - #### выезжающее меню
